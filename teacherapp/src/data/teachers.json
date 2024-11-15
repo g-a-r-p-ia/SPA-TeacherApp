@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "grade": "Math",
+    "experience": "10 years",
+    "description": "Passionate about teaching math to high school students.",
+    "reviews": [
+      {
+        "name": "Alice",
+        "rating": 5,
+        "comment": "Great teacher!"
+      },
+      {
+        "name": "Bob",
+        "rating": 4,
+        "comment": "Very helpful."
+      }
+    ],
+    "cost": 30
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "grade": "English",
+    "experience": "8 years",
+    "description": "Expert in English literature and grammar.",
+    "reviews": [
+      {
+        "name": "Eve",
+        "rating": 5,
+        "comment": "Very knowledgeable."
+      },
+      {
+        "name": "Tom",
+        "rating": 4,
+        "comment": "Highly recommend."
+      }
+    ],
+    "cost": 25
+  },
+  {
+    "id": 3,
+    "name": "Michael Johnson",
+    "grade": "Science",
+    "experience": "15 years",
+    "description": "Specialist in Physics and Chemistry.",
+    "reviews": [
+      {
+        "name": "Sophia",
+        "rating": 5,
+        "comment": "Excellent teaching methods."
+      },
+      {
+        "name": "Liam",
+        "rating": 4,
+        "comment": "Very clear explanations."
+      }
+    ],
+    "cost": 35
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "grade": "History",
+    "experience": "12 years",
+    "description": "Engages students with captivating historical stories.",
+    "reviews": [
+      {
+        "name": "Olivia",
+        "rating": 5,
+        "comment": "Makes history fun!"
+      },
+      {
+        "name": "Noah",
+        "rating": 4,
+        "comment": "Learned a lot."
+      }
+    ],
+    "cost": 20
+  },
+  {
+    "id": 5,
+    "name": "Sarah Lee",
+    "grade": "Music",
+    "experience": "7 years",
+    "description": "Inspires creativity through music lessons.",
+    "reviews": [
+      {
+        "name": "Jake",
+        "rating": 5,
+        "comment": "Helped me master the piano!"
+      },
+      {
+        "name": "Emma",
+        "rating": 4,
+        "comment": "Very patient and talented."
+      }
+    ],
+    "cost": 40
+  },
+  {
+    "id": 6,
+    "name": "David Wilson",
+    "grade": "Computer Science",
+    "experience": "10 years",
+    "description": "Expert in teaching programming and web development.",
+    "reviews": [
+      {
+        "name": "Oliver",
+        "rating": 5,
+        "comment": "Learned Python easily!"
+      },
+      {
+        "name": "Sophia",
+        "rating": 4,
+        "comment": "Highly technical and clear."
+      }
+    ],
+    "cost": 50
+  },
+  {
+    "id": 7,
+    "name": "Laura Martinez",
+    "grade": "Art",
+    "experience": "6 years",
+    "description": "Encourages creativity and self-expression through art.",
+    "reviews": [
+      {
+        "name": "Grace",
+        "rating": 5,
+        "comment": "Loved her painting classes!"
+      },
+      {
+        "name": "Ethan",
+        "rating": 4,
+        "comment": "Amazing teacher for beginners."
+      }
+    ],
+    "cost": 30
+  }
+]

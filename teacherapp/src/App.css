@@ -1,0 +1,245 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1c1c; /* Dark Background */
+    color: #ffffff; /* White Text */
+}
+
+h1, h2, h3 {
+    color: #9c27b0; /* Purple */
+}
+
+a {
+    text-decoration: none;
+    color: #9c27b0;
+}
+
+/* Header */
+header {
+    background-color: #9c27b0;
+    padding: 16px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* Main Content */
+.main-content {
+    margin-top: 80px; /* Add space to avoid overlap with fixed header */
+    padding: 20px;
+}
+/* InfoBlock.css */
+
+.info-block {
+    background-color: #ffffff;
+    color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-title {
+    color: #ff6600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.info-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    flex: 1;
+    max-width: 200px;
+    text-align: center;
+    padding: 10px;
+}
+
+    .info-item img {
+        max-width: 100px;
+       
+    }
+
+/* Teacher Section (Horizontal Scroll) */
+.teachers-page {
+    padding: 40px 0;
+}
+
+.teacher-list {
+    display: flex;
+    flex-direction: column; /* Stack cards vertically */
+    align-items: center; /* Center align cards */
+    gap: 20px; /* Space between cards */
+    padding: 20px 0;
+}
+.teacher-card-wrapper {
+    flex-shrink: 0; /* Prevent cards from shrinking */
+    scroll-snap-align: center; /* Align each card to the center when scrolling */
+}
+
+.slideouter {
+    display: flex;
+    overflow-x: hidden; /* Hide the overflow on the container */
+}
+
+.slideinner {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.teacher-card {
+    background: #2e2e2e;
+    border: 1px solid #9c27b0;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+    .teacher-card img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+.preSlide, .nextSlide {
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.preSlide {
+    left: 10px;
+}
+
+.nextSlide {
+    right: 10px;
+}
+.teacher-card {
+    background: #f7f7f7;
+    color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teacher-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.teacher-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.teacher-details h3 {
+    margin: 0;
+    color: #ff6600;
+}
+
+.teacher-description {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.teacher-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+    .teacher-footer span {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .teacher-footer button {
+        background-color: #ff6600;
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .teacher-footer button:hover {
+            background-color: #cc5200;
+        }
+/* Registration Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.modal-content {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+}
+
+.modal input {
+    margin: 10px 0;
+    padding: 8px;
+    width: 80%;
+}
+
+.modal button {
+    background-color: #9c27b0;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .modal button:hover {
+        background-color: #7b1fa2;
+    }
+
+/* Footer */
+footer {
+    background-color: #9c27b0;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px; /* Ensure footer is at the bottom of content */
+}
